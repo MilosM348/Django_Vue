@@ -4,9 +4,6 @@ from django.http.response import JsonResponse
 from rest_framework.parsers import JSONParser 
 from rest_framework import status
  
-from api.models import Item
-from api.serializers import ItemSerializer
-from rest_framework.decorators import api_view
 
 
 @api_view(['GET', 'POST', 'DELETE'])
